@@ -1,0 +1,17 @@
+{
+  "name": "mesh-test",
+  "description": "GraphQL Mesh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "mesh dev",
+    "build": "mesh build",
+    "start": "mesh start"
+  },
+  "dependencies": {
+    "@envelop/disable-introspection": "~6.0.0",
+    "@graphql-mesh/cli": "~0.91.2",
+    "@graphql-mesh/graphql": "~0.98.10",
+    "@graphql-mesh/types": "~0.98.10",
+    "graphql": "~16.8.1"
+  }
+}
